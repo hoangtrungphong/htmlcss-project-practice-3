@@ -38,6 +38,10 @@
         <!-- Styles CSS -->
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!-- Animation -->
+     <link rel="stylesheet" href="./assets/css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.css">
+
+
     </head>
     <body> 
         <!-- Header -->
@@ -86,7 +90,7 @@
                 <section class="hero">
                     <!-- Hero content -->
                     <section class="hero__content">
-                        <h1 class="hero__heading">Exceptional dental care for all ages.</h1>
+                        <h1 class="hero__heading animate__animated animate__bounce ">Exceptional dental care for all ages.</h1>
                         <p class="hero__desc">Exceptional dental care for all ages. 
                             Your great smile begins with a great dentist.
                         </p>
@@ -118,7 +122,7 @@
                     </p>
                     <div class="service__row">
                         <figure>
-                            <img src="./assets/img/hero-03.jpg" alt="" class="service__img">
+                            <img src="./assets/img/hero-03.jpg" alt="" class="service__img wow animate__animated animate__slideInLeft">
                         </figure>
                         <div>
                             <div class="service__list">
@@ -515,7 +519,7 @@
         </main>
 
         <!-- Footer -->
-        <div class="footer">
+        <footer class="footer">
             <div class="container">
                 <div class="footer__row">
                     <div class="footer__column">
@@ -650,6 +654,15 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </footer>
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" 
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+        </script>
+        <script>
+            new WOW().init();
+            </script>
     </body>
 </html>
